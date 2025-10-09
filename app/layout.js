@@ -10,6 +10,7 @@ const Josef = Josefin_Sans({
   weight : ["100","200","300","400","500","600","700"],
   display : "swap"
 })
+// ...existing code...
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -26,7 +27,9 @@ export default function RootLayout({ children }) {
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
      />
       </head>
-      <body className={Josef.className}>{children}</body>
+      <body className={Josef.className} style={{ background: 'white', color: 'black' }}>
+        {children}
+      </body>
     </html>
   );
 }
