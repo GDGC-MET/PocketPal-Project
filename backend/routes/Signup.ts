@@ -1,8 +1,9 @@
 import express from "express"
 import dotenv from "dotenv"
 import z from "zod"
-import { Signup } from "../model.ts";
+
 import jwt from "jsonwebtoken"
+import { Signup } from "../model.ts";
 dotenv.config();
 const app=express();
 

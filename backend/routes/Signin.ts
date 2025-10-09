@@ -1,8 +1,9 @@
 
 import express from "express"
 import z from "zod"
-import {Signup} from "../model.ts";
+
 import jwt from "jsonwebtoken"
+import { Signup } from "../model.ts";
 const SigninBody= z.object({
     email:z.string().email(),
     password:z.string().min(3).max(12)
