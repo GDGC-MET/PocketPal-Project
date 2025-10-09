@@ -44,7 +44,7 @@ const Navbar = ()=>{
                                 <span>Testimonials</span>
                             </Link>
                         </div>
-                        <a href="https://pocketpal-dashboard.vercel.app/" className="fund-button">Get Started</a>
+                        <a href="http://localhost:3000/auth/signup" className="fund-button">Get Started</a>
                     </div>
                 </div>
             </div>
