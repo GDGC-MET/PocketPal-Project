@@ -1,0 +1,44 @@
+
+:root {
+  --dark-bg: #000;
+  --light-bg: #f6f7fbad;
+  --primary-color: 	#ecb34a;
+  --secondary-color: 	#3c3c3c;
+  --third-color: black;
+  --fourth-color: #fee590;
+  --text-color: rgba(255, 255, 255, 0.847);
+  --text-secondary: #554b92;
+  --text-color-dark: black;
+  --text-color-light: #fcf3d4;
+  --title-color: white;
+  --border-color: #6a55f8;
+  --border-color-dark: #27263a;
+  --border-color-light: #6a55f8;
+  --shadow: 10px 12px 48px rgba(181, 187, 203, 0.500);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--text-color);
+  margin: 0 !important;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 0 !important;
+  touch-action: pan-y, pan-x;
+  transition: all 0.4s cubic-bezier(0.57, 0.25, 0.33, 1) 0s;
+}
+
+.container{
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+}
+
+@media (min-width: 1000px){
+  .container{
+    max-width: 1220px;
+  }
+}

@@ -1,0 +1,18 @@
+.bv-container .container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow:visible;
+}
+
+.bv-video{
+    width:95%;
+    border-radius: 4rem;
+    z-index: 1;
+    margin-top: -8rem;
+}
+
+.bv-wrapper{
+    background-color: var(--secondary-color);
+    padding-bottom: 8rem;
+}
